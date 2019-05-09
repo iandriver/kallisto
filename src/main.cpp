@@ -762,7 +762,7 @@ bool CheckOptionsBus(ProgramOptions& opt) {
       busopt.seq = BUSOptionSubstr(1,0,0);
       busopt.umi = BUSOptionSubstr(0,6,16);
       busopt.bc.push_back(BUSOptionSubstr(0,0,6));
-    } else if (opt.technology == "Drop8bp") {
+    } else if (opt.technology == "DROP8BP") {
       busopt.nfiles = 2;
       busopt.seq = BUSOptionSubstr(1,0,0);
       busopt.umi = BUSOptionSubstr(0,8,16);
